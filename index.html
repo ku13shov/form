@@ -680,20 +680,8 @@
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
-        <script>
-            $("#wdh_form").submit(function(e){
-                e.preventDefault();
-                $.ajax({
-                    type: "POST",
-                    url: "php-example.php",
-                    data: $("#wdh_form").serialize(),
-                    
-                });
-            });
-        </script>
     </body>
 </html>
