@@ -6,23 +6,23 @@
 </head>
 <body>
 
-	<form>
+	<style>
+		.hpot {
+			display: none;
+		}
+	</style>
 
-		<!-- Hidden Required Fields -->
-		<input type="hidden" name="project_name" value="Site Name">
-		<input type="hidden" name="admin_email" value="ohzkys@mailto.plus">
-		<input type="hidden" name="form_subject" value="Form Subject">
-		<!-- END Hidden Required Fields -->
+	<form action="//formspree.io/you@example.com">
+		<div class="hpot">
+			<label>Leave this field empty: <input name="_gotcha"></label>
+		</div>
 
 		<input type="text" name="Name" placeholder="You name..." required><br>
 		<input type="text" name="E-mail" placeholder="You E-mail..." required><br>
 		<input type="text" name="Phone" placeholder="You phone..."><br>
-		<button>Send</button>
+		<button type="submit">Send</button>
 
 	</form>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-	<script src="script.js"></script>
 
 </body>
 </html>
